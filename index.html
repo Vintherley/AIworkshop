@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime About Us - Dansk Camelina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #4c0099, black);
+      color: white;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Bangers', cursive;
+    }
+    .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo-img {
+  height: 50px; /* Adjust height as needed */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: red;
+}
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      transition: color 0.3s ease;
+    }
+    header nav a:hover {
+      color: #1e90ff;
+    }
+    .hero {
+      position: relative;
+      height: 70vh;
+      background: url('/placeholder.svg?height=1080&width=1920&text=Anime+Camelina+Field') center/cover no-repeat;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(128, 0, 128, 0.8), rgba(0, 0, 128, 0.8));
+    }
+
+    .hero-content {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .about-section {
+      padding: 40px 0;
+      background-color: #111;
+    }
+
+    .about-text {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .products, .team {
+      padding: 40px 0;
+      background-color: #333;
+    }
+
+    .products img, .team img {
+      max-width: 100%;
+    }
+
+    .team-grid {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: rgba(0, 0, 128, 0.5);
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #222;
+      color: white;
+      border: 1px solid purple;
+    }
+
+    .contact-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: red;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .team {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f4f4f4; /* Baggrundsfarve, som kan justeres */
+}
+
+.team h2 {
+  font-family: 'Bangers', cursive; /* Anvend den ønskede skrifttype */
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center; /* Centerer indholdet horisontalt */
+  gap: 20px;
+}
+
+.team-grid div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.team-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Gør billedet rundt */
+  margin-bottom: 20px;
+}
+
+.team-grid h3 {
+  font-family: 'Bangers', cursive; /* Anvend den samme skrifttype som overskriften */
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.team-grid p {
+  font-size: 16px;
+  color: #777;
+}
+    footer {
+      background-color: #222;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: lightblue;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src="img/DALL·E 2024-09-27 10.33.34 - An anime-style interpretation of a logo featuring a stylized green seed or leaf-like shape within a circular frame. The shape has a shaded texture, gi.webp" alt="Dansk Camelia Logo" class="logo-img">
+          </div>
+          <nav>
+            <a href="#">Home</a>
+            <a href="webshop.html">Shop</a>
+            <a href="index.html">About Us</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Dansk <span style="color:red;">Camelina</span></h1>
+      <p>Discover the Power of Anime-Inspired Oil!</p>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-text">
+      <h2>Our Magical Story</h2>
+      <p>✨🌱 Dansk Camelina: The Legendary Plant's Revival! 🌱✨
+
+
+        Konnichiwa, plant lovers and culinary adventurers! 👋 Welcome to the extraordinary world of Dansk Camelina! 🎌<br>
+        
+        
+        Our Epic Quest 🗺️
+        In a realm where nature's treasures lie hidden, waiting to be discovered, we at Dansk Camelina have embarked on an incredible journey to revive a legendary plant - the mystical Camelina! Our mission? To bring this forgotten hero back to the fields and kitchens of Denmark! 💪<br>
+        
+        
+        The Origin Story 📜
+        It all began when our protagonist, Charlotte-chan, stumbled upon the magical Camelina plant during a top-secret research mission! ❗️ Her eyes sparkled with determination as she vowed to reintroduce this amazing plant to Denmark. Since 2019, we've been cultivating Camelina in the lush lands of West Zealand, leveling up our farming skills every day! 🌾<br>
+        
+        
+        Our Super Powers 💪
+        At Dansk Camelina, we're the alchemists of the plant world! We transform ordinary Camelina into extraordinary organic oil and seeds. Our special technique? Cold-pressing the oil without filtering, preserving all its natural flavor and nutrient power-ups! 🧪 Packed with Omega 3-6-9 and natural antioxidants, it's like a health potion for your kitchen!<br>
+        
+        
+        Our Ultimate Goal 🌟
+        We're on a quest to make Camelina the ultimate choice for all Danes! Our dream? A sustainable future where Danish crops are diverse and mighty, breaking free from the chains of imported oils! With your support, we can level up and create a greener, healthier future for everyone! 🌍<br>
+        
+        
+        Meet Our Hero Squad 🦸‍♀️🦸‍♂️<br>
+        • Charlotte-chan: Our fearless founder and nutrition research ninja! 🥋<br>
+        • Martin-kun: Co-founder and master of agricultural tech-fu! 🤖<br>
+        
+        
+        Join Our Adventure! 📞<br>
+        Got questions? Want to join our Camelina fan club? Don't be shy - reach out and become part of our story! Together, we'll create a future that's sugoi (amazing)! 🎉</p>
+      <img src="/placeholder.svg?height=400&width=400&text=Anime+Camelina+Character" alt="Anime Camelina Character">
+    </div>
+  </section>
+
+  <!-- Product Section -->
+  <section class="products">
+    <h2>Our Legendary Camelina Oil</h2>
+    <img src="/placeholder.svg?height=500&width=300&text=Anime+Camelina+Bottle" alt="Anime-style Dansk Camelina Oil Bottle">
+    <ul>
+      <li>⭐ Omega-3 Supercharge</li>
+      <li>⭐ Vitamin E Shield</li>
+      <li>⭐ Locally Sourced Magic</li>
+      <li>⭐ Versatile Culinary Spell</li>
+      <li>⭐ Sustainable Danish Farming Boost</li>
+    </ul>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team">
+    <h2>Our Camelina Heroes</h2>
+    <div class="team-grid">
+      <div>
+        <img src="img/chalotte.png" alt="Anders-san">
+        <h3>Chalotte-san</h3>
+        <p>Founder & Master Cultivator</p>
+      </div>
+   
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-form">
+    <h2>Join Our Camelina Quest!</h2>
+    <form>
+      <input type="text" placeholder="Your Hero Name">
+      <input type="email" placeholder="Your Magical Email">
+      <textarea placeholder="Your Legendary Message"></textarea>
+      <button type="submit">Send Your Quest</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div>Dansk <span style="color:red;">Camelina</span></div>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <p>© 2023 Dansk Camelina. All rights reserved. Powered by Anime Magic!</p>
+  </footer>
+</body>
+</html>
